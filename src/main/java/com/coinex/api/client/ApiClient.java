@@ -61,10 +61,18 @@ public class ApiClient {
         apiService = retrofit.create(ApiService.class);
     }
 
+    /**
+     * 查询当前系统时间戳
+     * @return
+     */
     public Long getSystemClock() {
         return invoke(apiService.getServerClock());
     }
 
+    /**
+     * 获取交易对列表
+     * @return
+     */
     public List<CoinPair> getCoinPairs() {
         return invoke(apiService.getCoinPairs());
     }
