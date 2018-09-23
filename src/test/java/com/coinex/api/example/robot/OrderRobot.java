@@ -104,5 +104,4 @@ public class OrderRobot {
         return coinPairs.get(RandomUtils.nextInt(0, coinPairs.size()));
     }
 
-
 }

@@ -20,8 +20,8 @@ public class ApiClientTest {
 
     private static final Logger logger = LoggerFactory.getLogger(ApiClientTest.class);
 
-    private static final String accessKey = "IwCpkYru4sp8t8MOw6qmC2L0r89dt8bpmB1cPMxNrVWjIWoe6vf0xQUHH5jlYgoF";
-    private static final String secretKey = "nxHK292TaD4CIjiLmVkzwT0evm5rYKB4Qdy0p906yrEtnyo4rSDxqgDiKgQfvDrN";
+    private static final String accessKey = "81NOabsSzPkQtPjV8LyacXIGZ1BbxWrC2xpImKRVdSKqh6Ok3oq3E3Ix36FI2wLW";
+    private static final String secretKey = "aSy4SAcNSiidpaMyGJrdbnsv5oxIkLggpXKxoHjVEATkyTQ8hAw1aKkQjCOnQ8aX";
     private static ApiClient apiClient = new ApiClient(accessKey, secretKey);
 
     @Test
